@@ -1,4 +1,4 @@
-name: demoGihupaction
+name: demogihupaction
 on: 
   push:
     branches: [main]
