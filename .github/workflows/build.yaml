@@ -30,4 +30,4 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/demogihupaction
 
       - name: Verify
-        run: echo ${{steps.buildx.outputs.digest }}
+        run: echo ${{steps.build.outputs.digest }}
