@@ -1,4 +1,4 @@
-name: demo-gihupAction
+name: demoGihupaction
 on: 
   push:
     branches: [main]
